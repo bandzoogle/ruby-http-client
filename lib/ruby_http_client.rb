@@ -105,7 +105,7 @@ module SendGrid
       @query_params = nil
       @request_body = nil
       @http_options = http_options
-      @proxy_options = proxy_options
+      @proxy_options = proxy_options || {}
     end
 
     # Update the headers for the request
